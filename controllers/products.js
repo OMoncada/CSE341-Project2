@@ -1,5 +1,5 @@
 const Product = require('../models/product');
-const Api404Error = require('../middleware/api404Error');
+const Api404Error = require('../middleware/api404Error.js');
 
 exports.getAll = async (req, res) => {
   const products = await Product.find();
