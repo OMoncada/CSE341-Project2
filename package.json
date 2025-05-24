@@ -1,0 +1,17 @@
+{
+  "name": "project2-products",
+  "version": "1.2.0",
+  "description": "API REST de productos estilo profesor",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.14.3",
+    "mongoose": "^7.0.3",
+    "swagger-ui-express": "^4.6.3"
+  }
+}

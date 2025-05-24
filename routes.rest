@@ -1,0 +1,33 @@
+### Get all products
+GET http://localhost:3000/products
+
+### Get one product
+GET http://localhost:3000/products/68314494ea445e4505bef7f8
+
+### Create product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "JBL headphones with microphone",
+  "description": "Headphones with built-in stereo microphone, ideal for video calls and gaming.",
+  "price": 39.90,
+  "category": "Accessories",
+  "stock": 40,
+  "sku": "JBLMIC2024"
+}
+
+### Update product
+PUT http://localhost:3000/products/683143dbea445e4505bef7f3
+Content-Type: application/json
+
+{
+    "name": "Laptop Lenovo",
+    "description": "Work laptop with 16GB RAM",
+    "price": 799.99,
+    "stock": 10,
+    "sku": "LENOVO2023"
+  }
+
+### Delete product
+DELETE http://localhost:3000/products/68314494ea445e4505bef7f8
